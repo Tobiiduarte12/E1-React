@@ -10,6 +10,8 @@ import {
   NavContainer,
 } from "./HeaderStyled";
 
+import { AiOutlineHome } from "react-icons/ai";
+
 const Header = () => {
   return (
     <HeaderStyled>
@@ -25,13 +27,28 @@ const Header = () => {
       <NavContainer>
         <ul>
           <li>
-            <a href="#">Home</a>
+            <a
+              style={{ display: "flex", alignItems: "center", gap: "2px" }}
+              href="#"
+            >
+              Home <AiOutlineHome />
+            </a>
           </li>
           <li>
-            <a href="#">Products</a>
+            <a
+              style={{ display: "flex", alignItems: "center", gap: "2px" }}
+              href="#"
+            >
+              Products
+            </a>
           </li>
           <li>
-            <a href="#">About us</a>
+            <a
+              style={{ display: "flex", alignItems: "center", gap: "2px" }}
+              href="#"
+            >
+              About us
+            </a>
           </li>
         </ul>
       </NavContainer>

@@ -1,5 +1,6 @@
 // import React from 'react'
 
+import Footer from "../Footer/Footer";
 import HeroSection from "../HeroSection/HeroSection";
 import SectionProducts from "../SectionProducts/SectionProducts";
 import Header from "../header/Header";
@@ -11,6 +12,7 @@ const AppWrapper = () => {
       <Header />
       <HeroSection />
       <SectionProducts />
+      <Footer />
     </AppWrapperStyled>
   );
 };

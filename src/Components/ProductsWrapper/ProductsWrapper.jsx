@@ -8,7 +8,7 @@ const ProductsWrapper = () => {
   return (
     <ProductsWrapperStyled>
       {DataProducts.map((product) => {
-        return <ProductCard key={product.id} product={product} />;
+        return <ProductCard key={product.id} {...product} />;
       })}
     </ProductsWrapperStyled>
   );

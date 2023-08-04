@@ -1,14 +1,16 @@
 // import React from 'react'
 
+import BtnAddToCart from "../Buttons/BtnAddToCart";
 import { ProductCardContainerStyled } from "./ProductCardStyled";
 
-const ProductCard = () => {
+// eslint-disable-next-line react/prop-types
+const ProductCard = ({ image, name, description, price }) => {
   return (
     <ProductCardContainerStyled>
-      <img src="/images/matera 1.png" alt="" style={{ height: "200px" }} />
-      <h3>Matera 1</h3>
-      <p>Lorem ipsum dolor sit.</p>
-      <button>Add to cart</button>
+      <img src={image} alt={name} style={{}} />
+      <h3>{name}</h3> <span>$ {price}</span>
+      <p>{description}</p>
+      <BtnAddToCart />
     </ProductCardContainerStyled>
   );
 };

@@ -11,6 +11,7 @@ export const HeaderStyled = styled.header`
   border-bottom: 1px solid #000;
   position: fixed;
   top: 0;
+  z-index: 100;
 `;
 
 export const HeaderLeftContainer = styled.div`

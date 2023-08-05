@@ -7,7 +7,7 @@ const SectionProducts = () => {
   // const [products, setProducts] = useState([])
 
   return (
-    <SectionProductsStyled>
+    <SectionProductsStyled id="SectionProducts">
       <h2>Nuestras mejores materas</h2>
       <ProductsWrapper />
     </SectionProductsStyled>

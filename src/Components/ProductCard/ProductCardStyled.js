@@ -6,7 +6,7 @@ export const ProductCardContainerStyled = styled.div`
   align-items: center;
   justify-content: center;
   width: 300px;
-
+  border: 1px solid #fff;
   height: auto;
   margin: 20px;
   border-radius: 10px;
@@ -14,6 +14,12 @@ export const ProductCardContainerStyled = styled.div`
   box-shadow: 0 0 10px #141516;
   transition: all 0.3s ease-in-out;
   padding-bottom: 20px;
+  background: linear-gradient(
+    180deg,
+    rgba(20, 21, 22, 1) 5%,
+    rgba(69, 94, 225, 0.9023984593837535) 68%,
+    rgba(19, 32, 97, 1) 100%
+  );
 
   &:hover {
     transform: scale(1.05);
@@ -24,7 +30,6 @@ export const ProductCardContainerStyled = styled.div`
     width: 100%;
     height: 100%;
     border-radius: 10px 10px 0 0;
-    border-bottom: 1px solid #fff;
   }
 
   & h3 {

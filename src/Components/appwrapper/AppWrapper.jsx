@@ -2,6 +2,7 @@
 
 import Footer from "../Footer/Footer";
 import HeroSection from "../HeroSection/HeroSection";
+import SectionAbout from "../SectionAbout/SectionAbout";
 import SectionProducts from "../SectionProducts/SectionProducts";
 import Header from "../header/Header";
 import { AppWrapperStyled } from "./AppWrapperStyled";
@@ -12,6 +13,7 @@ const AppWrapper = () => {
       <Header />
       <HeroSection />
       <SectionProducts />
+      <SectionAbout />
       <Footer />
     </AppWrapperStyled>
   );

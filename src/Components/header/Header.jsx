@@ -37,7 +37,7 @@ const Header = () => {
           <li>
             <a
               style={{ display: "flex", alignItems: "center", gap: "2px" }}
-              href="#"
+              href="#SectionProducts"
             >
               Products
             </a>
@@ -45,7 +45,7 @@ const Header = () => {
           <li>
             <a
               style={{ display: "flex", alignItems: "center", gap: "2px" }}
-              href="#"
+              href="#SectionAbout"
             >
               About us
             </a>
